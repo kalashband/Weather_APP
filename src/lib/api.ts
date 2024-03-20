@@ -1,5 +1,5 @@
 // src/lib/api.ts
-const API_KEY = 'WRoxLyk4s7Se5SfDkVxRB95aAAaYQ1ls'; // Replace with your API key E9kjUn8YZcYb89hUgSu9gKn1kjgRkj9x WRoxLyk4s7Se5SfDkVxRB95aAAaYQ1ls 0crMZqbwmeZ4cRM8DtSgtRRB2Zy0vPuP
+const API_KEY = '67HtF3g5SwPvqX7TKTvrbcH8Dci7KnFg'; // Replace with your API key 67HtF3g5SwPvqX7TKTvrbcH8Dci7KnFg  E9kjUn8YZcYb89hUgSu9gKn1kjgRkj9x   WRoxLyk4s7Se5SfDkVxRB95aAAaYQ1ls 0crMZqbwmeZ4cRM8DtSgtRRB2Zy0vPuP
 const BASE_URL = 'https://api.tomorrow.io/v4/weather/forecast?';
 
 export async function weather(city: string) {
