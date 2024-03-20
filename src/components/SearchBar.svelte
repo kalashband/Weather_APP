@@ -20,6 +20,7 @@
 
     fetchData(city);
     console.log(city);
+    
 
     // Refresh weather data every 10 minutes
     const interval = setInterval(() => {
@@ -48,8 +49,7 @@
       placeholder="Enter city or zip code"
       class="w-34 p-4 border text-gray-600"
     />
-    <button on:click={search} class="p-2 text-2xl font-extrabold">Search</button
-    >
+    <button on:click={search} class="p-2 text-2xl  font-extrabold ">Search</button>
 
     <div
       class="bg-darkblue py-4 px-5 flex flex-col items-center space-y-4 text-gray-250"
@@ -63,9 +63,9 @@
       <div
         class="flex flex-col items-center text-center text-gray-350 text-lg space-y-5"
       >
-        <h3>
-          <span class="material-symbols-outlined"> location_on </span>{city}
-        </h3>
+        <h3><span class="material-symbols-outlined">
+          location_on
+          </span>{$weatherData.location.name.split(',')[1].trim()}</h3>
       </div>
     </div>
   </div>

@@ -41,17 +41,7 @@
     
      <h2 class="flex justify-center space-x-5 p-10 text-2xl" >Today's Weather</h2>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 justify-center">
-      <!-- <div
-        class="bg-darkblue py-4 px-5 flex flex-col items-center space-y-4 text-gray-250"
-      >
-        <p>Temperature:</p>
-        <div class="flex justify-between space-x-5">
-          <h2 class="text-5xl font-bold">
-            {$weatherData.timelines.minutely[0].values.temperature.toFixed(2)}°C
-          </h2>
-        </div>
-      </div> -->
-      
+
       <div
         class="bg-darkblue py-4 px-5 flex flex-col items-center space-y-4 text-gray-250"
       >
@@ -70,8 +60,7 @@
         <div class="flex justify-between space-x-5">
           <h2 class="text-5xl font-bold">
             {getWeatherDescription(
-              $weatherData.timelines.minutely[0].values.weatherCode,
-            )}
+              $weatherData.timelines.minutely[0].values.weatherCode)}
           </h2>
         </div>
       </div>

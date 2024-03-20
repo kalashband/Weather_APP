@@ -13,7 +13,7 @@
 <div class=" flex justify-around content-center ">
   
 <aside>
-  <h2  class="flex justify-center space-x-5 p-10 text-2xl" >Search</h2>
+  <h2  class="flex justify-center space-x-5 p-10 text-2xl" >Search For location</h2>
   <SearchBar on:search={handleSearch}  {city}/>
 </aside>
 
