@@ -1,8 +1,6 @@
 <!-- src/components/CurrentWeather.svelte -->
 <script lang="ts">
-  import { logEvent } from "firebase/analytics";
   import { weather } from "../lib/api";
-  import { onMount } from "svelte";
   import { readable } from "svelte/store";
   import weatherCode from "../WeatherDesc.json"; // Correct the path to your JSON file
 
